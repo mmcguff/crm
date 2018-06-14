@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {  
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "author": "Matthew McGuff",
   "license": "ISC",
   "dependencies": {
+    "await-to-js": "^2.0.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.1.5",
